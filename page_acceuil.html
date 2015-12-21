@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<style type="text/css">
+			[class*="col"] { 
+				margin-bottom: 20px;
+				margin-top: 75px;
+			}
+			
+			img { 
+				width: 100%; 
+			}
+
+			body{
+				width:100%;
+				/*background: url(img/lautenbach2.jpg) no-repeat;*/
+				/*background-color:green;*/
+				padding-top: 70px;
+			}
+			
+			.container{
+				margin:auto;
+			}
+			
+			.navbar{
+				max-height:50px;
+			}
+			
+			.navbar-brand {
+				margin:0;
+				padding:0;
+			}
+						
+			.inline-form{
+				display:inline-block;
+				width:100px;
+			}
+			
+			.jumbotron{
+				background:none;
+				width: 500px;
+			}
+			
+			.jumbotron a {
+				/*background-color: #CCC;*/
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div class="container">
+		
+			<div class="navbar navbar-default navbar-fixed-top">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<a class="navbar-brand"><img src="img/blason2.png"></a>
+					</div>
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">Acceuil</a></li>
+						<li><a href="page_plusInfos.html">Plus d'infos</a></li>
+						<li><a href="page_activitesDuMois.html">Activités du mois</a></li>
+						<li><a href="page_contacts.html">Contacts</a></li>
+						<li>
+							<form class="navbar-form ">
+								<div class="form-group">
+									<input type="search" class="input-sm form-control" placeholder="Rechercher">
+									<button type="submit" class="btn btn-primary btn-sm">Chercher</button>
+								</div>
+							</form>
+						</li>
+					</ul>	
+					<button type="button" class="btn btn-default navbar-btn navbar-right">Espace membre</button>
+				</div>
+			</div>
+			
+			<section class="row">
+				<div class="col-xs-12 col-sm-5 col-md-5  ">
+					<h2>BIENVENUE SUR LE SITE DES </h2>
+				</div>
+				<div class="col-xs-12 col-sm-7 col-md-7 "><img src="img/Btn-activites-culturelles.jpg"></div>
+			</section>
+			
+			<section class="row">
+				<div class="col-md-12">
+					<h1>DE LA COMMUNE DE LAUTENBACH</h1>
+				</div>
+			</section>
+			
+			<div class="row">
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<img src="img/logo-activites-sportives.png">
+				</div>
+				<section class="col-xs-12 col-sm-8 col-md-8">
+					<h2>Notre site vous propose de trouver :</h2>
+					<div class="jumbotron">
+						<ul>
+							<li><a href="page_plusInfos.html">Toutes nos informations</a></li>
+							<li><a href="page_activitesDuMois.html">Les activités proposées ce mois</a></li>
+							<li><a href="page_contacts.html">Comment nous contacter</a></li>
+						</ul>
+					</div>
+				</section>
+			</div>
+		</div>
+	</body>
+</html>
