@@ -8,6 +8,7 @@
 		<style type="text/css">
 			body{
 				/*background: url(img/bkg_lautenbach.jpg);*/
+				background-color: #DFEDD5;
 				padding-top: 70px;
 			}
 			
@@ -29,15 +30,14 @@
 				background-color: green;
 			}
 		</style>
-		<script>
-		
-		</script>
+		<script src="js/jquery-2.1.4.js"></script>
+        <script src="js/bootstrap.js"></script>
 	</head>
 	
 	<body>
 		<div class="container">
 		
-			<div class="navbar navbar-default navbar-fixed-top">
+			<div class="navbar-inverse navbar-default navbar-fixed-top">
 				<div class="container-fluid">
 					<div class="navbar-header">
 						<a class="navbar-brand"><img src="img/blason2.png"></a>
@@ -56,19 +56,19 @@
 							</form>
 						</li>
 					</ul>	
-					<button type="button" class="btn btn-default navbar-btn navbar-right">Espace membre</button>
+					<a class="btn btn-default navbar-btn navbar-right" href="page_login.html">Espace membre</a>
 				</div>
 			</div>
 			
 			<section class="row">
 				<div class="col-md-12">
-					<h1>ACTIVITES DU MOIS :</h1>
+					<h1>ACTIVITES DU MOIS : </h1>
 				</div>
 			</section>
 			
 			<table class="table table-bordered table-condensed">
 				<caption>
-					<h4>Liste détailles des activitées</h4>
+					<h4>Liste détaillée des activités</h4>
 				</caption>
 				<thead>
 					<tr>
@@ -84,8 +84,8 @@
 						<td>Visite guidée de l'église</td>
 						<td>Profitez d'un guide professionnel qui vous fera découvrir ce chef d'oeuvre d'art Roman</td>
 						<td>
-							<div class="dropdown">
-								<button class="btn btn-default dropdown-toggle" data-toggle="dropdown">Inscription <span class="caret" /></button>
+							<div class="btn-group">
+								<button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Inscription <span class="caret" /></button>
 								<ul class="dropdown-menu">
 									<li><a href="#">Seul</a></li>
 									<li><a href="#">Accompagné</a></li>
@@ -98,8 +98,8 @@
 						<td>Fête de la Saint-Nicolas</td>
 						<td>Le Saint-Nicolas viendra voir les enfants à l'école</td>
 						<td>
-							<div class="dropdown">
-								<button class="btn btn-default dropdown-toggle" data-toggle="dropdown">Inscription <span class="caret" /></button>
+							<div class="btn-group">
+								<button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Inscription <span class="caret" /></button>
 								<ul class="dropdown-menu">
 									<li><a href="#">Seul</a></li>
 									<li><a href="#">Accompagné</a></li>
@@ -107,13 +107,13 @@
 							</div>
 						</td>
 					</tr>
-					<tr>
+					<tr class="warning">
 						<td>6 Décembre</td>
 						<td>Tournoi de Ping-pong</td>
-						<td>Tournoi annuel du club de Ping-pong dans la salle des fêtes</td>
+						<td><strong>ANNULE</strong></td>
 						<td>
-							<div class="dropdown">
-								<button class="btn btn-default dropdown-toggle" data-toggle="dropdown">Inscription <span class="caret" /></button>
+							<div class="btn-group">
+								<button class="btn btn-primary dropdown-toggle disabled" data-toggle="dropdown">Inscription <span class="caret" /></button>
 								<ul class="dropdown-menu">
 									<li><a href="#">Seul</a></li>
 									<li><a href="#">Accompagné</a></li>
@@ -126,8 +126,8 @@
 						<td>Sortie VTT</td>
 						<td>Les mordus du grand air pourront satisfaire leur envie d'aventure le long des 5 parcours VTT</td>
 						<td>
-							<div class="dropdown">
-								<button class="btn btn-default dropdown-toggle" data-toggle="dropdown">Inscription <span class="caret" /></button>
+							<div class="btn-group">
+								<button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Inscription <span class="caret" /></button>
 								<ul class="dropdown-menu">
 									<li><a href="#">Seul</a></li>
 									<li><a href="#">Accompagné</a></li>
@@ -140,8 +140,8 @@
 						<td>Marché de Noël</td>
 						<td>Comme touts les ans, notre marché de Noël vous attends autour de l'église</td>
 						<td>
-							<div class="dropdown">
-								<button class="btn btn-default dropdown-toggle" data-toggle="dropdown">Inscription <span class="caret" /></button>
+							<div class="btn-group">
+								<button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Inscription <span class="caret" /></button>
 								<ul class="dropdown-menu">
 									<li><a href="#">Seul</a></li>
 									<li><a href="#">Accompagné</a></li>
@@ -154,8 +154,8 @@
 						<td>Journée découverte au Vivarium du Moulin</td>
 						<td>Toute la journée des animations ludiques vous présenterons le milieu magique des insectes</td>
 						<td>
-							<div class="dropdown">
-								<button class="btn btn-default dropdown-toggle" data-toggle="dropdown">Inscription <span class="caret" /></button>
+							<div class="btn-group">
+								<button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Inscription <span class="caret" /></button>
 								<ul class="dropdown-menu">
 									<li><a href="#">Seul</a></li>
 									<li><a href="#">Accompagné</a></li>
@@ -168,8 +168,8 @@
 						<td>Exposition peinture</td>
 						<td>Dans la salle de la mairie, retrouvez les oeuvres des artistes locaux</td>
 						<td>
-							<div class="dropdown">
-								<button class="btn btn-default dropdown-toggle" data-toggle="dropdown">Inscription <span class="caret" /></button>
+							<div class="btn-group">
+								<button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Inscription <span class="caret" /></button>
 								<ul class="dropdown-menu">
 									<li><a href="#">Seul</a></li>
 									<li><a href="#">Accompagné</a></li>
@@ -182,8 +182,8 @@
 						<td>Marche populaire</td>
 						<td>Marche populaire qui fera le tour de la vallée du Florival</td>
 						<td>
-							<div class="dropdown">
-								<button class="btn btn-default dropdown-toggle" data-toggle="dropdown">Inscription <span class="caret" /></button>
+							<div class="btn-group">
+								<button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Inscription <span class="caret" /></button>
 								<ul class="dropdown-menu">
 									<li><a href="#">Seul</a></li>
 									<li><a href="#">Accompagné</a></li>
@@ -196,8 +196,8 @@
 						<td>Cours de théatre</td>
 						<td>Cours de théatre pour les enfants, animés par la troupe du village</td>
 						<td>
-							<div class="dropdown">
-								<button class="btn btn-default dropdown-toggle" data-toggle="dropdown">Inscription <span class="caret" /></button>
+							<div class="btn-group">
+								<button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Inscription <span class="caret" /></button>
 								<ul class="dropdown-menu">
 									<li><a href="#">Seul</a></li>
 									<li><a href="#">Accompagné</a></li>
@@ -210,8 +210,8 @@
 						<td>Course d'orientation</td>
 						<td>Course d'orientation ouverte à tous à l'aire de jeux</td>
 						<td>
-							<div class="dropdown">
-								<button class="btn btn-default dropdown-toggle" data-toggle="dropdown">Inscription <span class="caret" /></button>
+							<div class="btn-group">
+								<button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Inscription <span class="caret" /></button>
 								<ul class="dropdown-menu">
 									<li><a href="#">Seul</a></li>
 									<li><a href="#">Accompagné</a></li>
