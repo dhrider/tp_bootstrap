@@ -5,49 +5,52 @@
 	<head>
 		<meta charset="utf-8">
 		<link href="css/bootstrap.css" rel="stylesheet">
-		<style type="text/css">
+		<style>
 			body{
-				/*background: url(img/bkg_lautenbach.jpg);*/
+				width:100%;
 				background-color: #DFEDD5;
-				padding-top: 70px;
 			}
 			
-			.navbar{
-				max-height:50px;
-			}
-			
-			.navbar-brand {
-				margin:0;
+			.navbar-brand{
 				padding:0;
+			}
+			
+			.container{
+				margin-top: 70px;
 			}
 		</style>
 	</head>
 	
 	<body>
-		<div class="container">
-		
-			<div class="navbar-inverse navbar-default navbar-fixed-top">
-				<div class="container-fluid">
-					<div class="navbar-header">
-						<a class="navbar-brand"><img src="img/blason2.png"></a>
-					</div>
+		<nav class="navbar-inverse navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+				    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand"><img src="img/blason2.png"></a>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
-						<li><a href="page_acceuil.html">Acceuil</a></li>
+						<li><a href="page_acceuil.html">Acceuil <span class="sr-only">(current)</span></a></li>
 						<li><a href="page_plusInfos.html">Plus d'infos</a></li>
 						<li><a href="page_activitesDuMois.html">Activités du mois</a></li>
 						<li><a href="page_contacts.html">Contacts</a></li>
-						<li>
-							<form class="navbar-form ">
-								<div class="form-group">
-									<input type="search" class="input-sm form-control" placeholder="Rechercher">
-									<button type="submit" class="btn btn-primary btn-sm">Chercher</button>
-								</div>
-							</form>
-						</li>
-					</ul>	
-				</div>
-			</div>
+					</ul>
+					<form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Recherche">
+						</div>
+						<button type="submit" class="btn btn-default">Rechercher</button>
+					</form>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
 			
+		<div class="container">	
 			<form class="col-md-offset-4 col-md-4">
 				<legend>Accès Espace Membre</legend>
 				<div class="form-group">
