@@ -1,0 +1,40 @@
+[class*="col"] { 
+	margin-bottom: 20px;
+	margin-top: 75px;
+}
+
+img { 
+	width: 100%; 
+}
+
+container{
+	width:100%;
+	background-color: #DFEDD5;
+	padding-top: 70px;
+}
+			
+.inline-form{
+	display:inline-block;
+	width:100px;
+}
+
+form{
+	margin-top: 20px;
+}
+
+.form-inline{
+	margin-bottom:5px;
+}
+
+.jumbotron{
+	background:none;
+	width: 500px;
+}
+
+tbody tr:hover {
+	background-color: green;
+}
+
+.img_infos{
+	margin-bottom:20px;
+}
