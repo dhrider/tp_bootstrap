@@ -5,20 +5,8 @@
 	<head>
 		<meta charset="utf-8">
 		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/site_bootstrap.css" rel="stylesheet">
 		<style>
-			body{
-				width:100%;
-				background-color: #DFEDD5;
-			}
-			
-			img { 
-				width: 100%; 
-			}
-			
-			.navbar-brand{
-				padding:0;
-			}
-			
 			.container{
 				margin-top: 20px;
 			}
@@ -77,8 +65,9 @@
 					<input id="titre" type="text" class="form-control">
 				</div>
 				<div class="form-group">
-					<label for="dateNaissance">Votre date de naissance : </label>
+					<label for="dateNaissance">Votre date de naissance : <span id="info" class="glyphicon glyphicon-info-sign" onclick="#"></span></label>
 					<input id="dateNaissance" type="date" class="form-control">
+					
 				</div>
 				<div class="form-group">
 					<label for="email">Votre E-mail : </label>
