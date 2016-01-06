@@ -1,6 +1,6 @@
 body{
 	width:100%;
-	background-color: #DFEDD5;
+	background-color: #F7F7F7;
 }
 
 img { 
@@ -27,4 +27,5 @@ img {
 
 tbody tr:hover {
 	background-color: green;
+	color:white;
 }
