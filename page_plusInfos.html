@@ -10,6 +10,16 @@
 			.container{
 				margin-top: 20px;
 			}
+			
+			.media{
+				margin-top: 0;
+				margin-bottom: 20px;
+			}
+			
+			.media h4{
+				text-align:center;
+				margin-top: 10px;
+			}
 		</style>
 		<script src="js/jquery-2.1.4.js"></script>
         <script src="js/bootstrap.js"></script>
@@ -43,24 +53,70 @@
 					<form class="navbar-form navbar-right" role="members">
 						<a href="page_login.html" class="btn btn-default">Accès Membres</a>
 					</form>
-				</div><!-- /.navbar-collapse -->
-			</div><!-- /.container-fluid -->
+				</div>
+			</div>
 		</nav>
 		
 		<div class="container">	
 			<section class="row">
 				<div class="col-md-12">
-					<h1>Ci-dessous les différentes activitées que vous trouverez chez nous</h1>
+					<h1>Les différentes activités que vous pourrez trouver chez nous :</h1>
 				</div>
 			</section>
 			
 			<section class="row">
-				<div class="col-xs-12 col-sm-6 col-md-4"><img src="img/infos1.jpg" class="img_infos"></div>
-				<div class="col-xs-12 col-sm-6 col-md-4"><img src="img/infos2.jpg" class="img_infos"></div>
-				<div class="col-xs-12 col-sm-6 col-md-4"><img src="img/infos3.jpg" class="img_infos"></div>
-				<div class="col-xs-12 col-sm-6 col-md-4"><img src="img/infos4.jpg" class="img_infos"></div>
-				<div class="col-xs-12 col-sm-6 col-md-4"><img src="img/infos5.jpg" class="img_infos"></div>
-				<div class="col-xs-12 col-sm-6 col-md-4"><img src="img/infos6.jpg" class="img_infos"></div>
+				<ul class="media-list">
+					<li class="media col-xs-12 col-sm-6 col-md-4">
+						<div class="media-top media-middle">
+							<a href="#">
+								<img src="img/infos1.jpg" class="media-objects">
+							</a>							
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">Aire de Jeux</h4>
+						</div>
+					</li>
+					<li class="media col-xs-12 col-sm-6 col-md-4">
+						<div class="media-top media-middle">
+							<a href="#"><img src="img/infos2.jpg" class="media-objects"></a>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">Visite de l'Eglise Romane</h4>
+						</div>
+					</li>
+					<li class="media col-xs-12 col-sm-6 col-md-4">
+						<div class="media-top media-middle">
+							<a  href="#"><img src="img/infos3.jpg" class="media-objects"></a>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">Vivarium du moulin</h4>
+						</div>
+					</li>
+					<li class="media col-xs-12 col-sm-6 col-md-4">
+						<div class="media-top media-middle">
+							<a href="#"><img src="img/infos4.jpg" class="media-objects"></a>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">Parcours VTT</h4>
+						</div>
+					</li>
+					<li class="media col-xs-12 col-sm-6 col-md-4">
+						<div class="media-top media-middle">
+							<a href="#"><img src="img/infos5.jpg" class="media-objects"></a>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">Sentiers balisés par le Club Vosgien</h4>
+						</div>
+					</li>
+					<li class="media col-xs-12 col-sm-6 col-md-4">
+						<div class="media-top smedia-middle">
+							<a href="#"><img src="img/infos6.jpg" class="media-objects"></a>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">Luge Eté/Hiver du Markstein</h4>
+						</div>
+					</li>
+				</ul>
 			</section>
 		</div>
 	</body>
